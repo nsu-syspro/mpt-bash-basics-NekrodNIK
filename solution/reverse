@@ -1,3 +1,5 @@
+#!/bin/bash
+
 while read -r
 do
   OUT="${REPLY}"$'\n'"${OUT}"
