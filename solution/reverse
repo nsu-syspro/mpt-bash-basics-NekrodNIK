@@ -1,5 +1,5 @@
-while read
+while read -r
 do
-  OUT="$REPLY\n$OUT"
+  OUT="${REPLY}"$'\n'"${OUT}"
 done
-echo -ne "$OUT"
+echo -n "$OUT"
