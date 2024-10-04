@@ -1,0 +1,5 @@
+while read
+do
+  OUT="$REPLY\n$OUT"
+done
+echo -ne "$OUT"
